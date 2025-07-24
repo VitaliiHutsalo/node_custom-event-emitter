@@ -64,7 +64,7 @@ class MyEventEmitter {
     if (event) {
       delete this.events[event];
     } else {
-      this.event = {};
+      this.events = {};
     }
   }
 
